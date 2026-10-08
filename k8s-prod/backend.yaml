@@ -1,4 +1,5 @@
---- 
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: moazzam75/backend:eff2b92e65548375cb290ea829c514c6fbb24919
+          image: moazzam75/backend:d87ef9f77e33cf99f81593d87d1cada4473092cf
           ports:
             - containerPort: 5000
           env:
